@@ -127,8 +127,6 @@ body {
     font-weight: 300;
     color: #3a3a3a;
     background-color: #fafafa;
-
-
 }
 
 div {
@@ -161,7 +159,6 @@ h4 {
     font-family: Oswald, sans-serif;
     text-align: center;
     text-transform: uppercase;
-    text-size-adjust: 0.5;
     letter-spacing: 2px;
     color: #252525;
 }
@@ -189,7 +186,6 @@ h3,
 h4 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    text-size-adjust: 0.5;
     text-align: center;
     box-sizing: border-box;
 }
@@ -198,7 +194,6 @@ h4 {
     display: flex;
     flex-flow: column;
 }
-
 
 #logo {
     float: left;
@@ -245,7 +240,6 @@ h4 {
     color: inherit;
 }
 
-
 /* contact page*/
 
 table,
@@ -256,7 +250,6 @@ td {
     width: 80%;
     height: 20%;
     columns: 4;
-
 }
 
 #contact {
@@ -299,7 +292,6 @@ input {
 
 .social-networks>li {
     display: inline;
-
 }
 
 .social-networks i {
@@ -326,8 +318,8 @@ footer {
     margin-top: 10px;
     bottom: 0;
     width: 100%;
-    height: 120px;
-    /* Height of the footer */
 
+    /* Height of the footer */
+    height: 120px;
     opacity: 0.9;
 }
