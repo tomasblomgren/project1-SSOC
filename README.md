@@ -5,7 +5,6 @@
 - This projects purpose is to find a tourguide for any visitors stopping by and giving them an easy way to find their way around. Sigtuna is the oldest standing and functioning city and has alot of history from the year 980 to this day. The city has old viking ruins and churches placed all around which is displayed in the gallery page. The contact page provided will help you get in touch with one of our available guides to take you on your personal tour.
 
 
-
 ## Existing Features
 
 - The features displayed are a home page, gallery page and a contact page with a form and a tabled list with activities. Points of interests  of your choosing and guides. These features are displayed on three separate pages to make it as clean as possible. The headline is also a clickable button that takes you back to the home page.
