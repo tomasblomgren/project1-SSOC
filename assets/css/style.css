@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 
 .row::after {
@@ -152,7 +151,6 @@ h1 {
 
 }
 
-
 h2,
 h3,
 h4 {
@@ -167,8 +165,8 @@ h4 {
 h2,
 h3,
 h4 {
+    vertical-align: center;
     text-align: center;
-
 }
 
 h2,
@@ -375,6 +373,19 @@ td {
     width: 80%;
     height: 20%;
     columns: 4;
+}
+
+/*grid views and grid rows*/
+.grid-item1 {
+
+    grid-row: auto;
+    grid-template-columns: 2;
+}
+
+.grid-item2 {
+
+    grid-row: auto;
+    grid-template-columns: 2;
 }
 
 #contact {
