@@ -198,6 +198,7 @@ h4 {
     float: left;
     font-size: 280%;
     color: black;
+
 }
 
 #sigtuna {
@@ -221,6 +222,7 @@ h4 {
     list-style-type: none;
     text-align: center;
     color: black;
+    float: right;
 }
 
 .top-nav {
@@ -257,6 +259,8 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    float: right;
+    color: #222;
 }
 
 #menu {
@@ -363,7 +367,7 @@ h4 {
     color: inherit;
 }
 
-/* contact page*/
+/* tables in contact page*/
 
 table,
 th,
@@ -377,11 +381,18 @@ td {
     column-width: 4;
 }
 
-/*grid views and grid rows*/
-
 
 #contact {
     height: 600px;
+
+
+}
+
+/*section of both tables*/
+#contactinfo {
+    background-color: aqua;
+    size-adjust: 100%;
+    width: 100%;
 
 }
 
@@ -391,7 +402,7 @@ hr {
     margin: 5px 0;
 }
 
-/* events */
+/* contact page */
 
 input {
     width: 100%;
@@ -408,6 +419,7 @@ input {
     width: 100%;
     position: relative;
 
+
 }
 
 #events2 {
@@ -415,6 +427,30 @@ input {
     width: 100%;
     position: relative;
 
+}
+
+
+
+@media screen and (min-width: 320px) {
+
+    table,
+    events,
+    events2,
+    contactinfo,
+    tr,
+    td,
+    th {
+        background-color: lightgreen;
+        size-adjust: 50%;
+        column-width: 30px;
+        columns: auto;
+        margin: auto;
+        padding: auto;
+        box-sizing: border-box;
+        width: 50%;
+        height: 40px;
+
+    }
 }
 
 /* Social networks */
@@ -436,6 +472,7 @@ input {
     color: #3a3a3a;
 }
 
+/*gallery page*/
 #photos {
     clear: both;
     line-height: 0;
