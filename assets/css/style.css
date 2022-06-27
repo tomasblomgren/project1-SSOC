@@ -129,7 +129,7 @@ body {
 }
 
 div {
-    padding: auto;
+    padding: 5px;
     margin: 15px;
 
 }
@@ -221,6 +221,8 @@ h4 {
     text-align: center;
     color: black;
     float: left;
+    padding-top: 20px;
+    margin: 0px;
 
 }
 
@@ -281,6 +283,11 @@ h4 {
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
     color: #222;
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-bottom: 30px;
 }
 
 .menu-button::before {
@@ -337,7 +344,8 @@ h4 {
             max-width: 30%;
             width: 10%;
             height: 10px;
-            float: initial;
+            position: sticky;
+
         }
     }
 
