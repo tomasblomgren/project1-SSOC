@@ -41,11 +41,17 @@ The top of the contact page provides a schedule of activities and tours you coul
 The footer displayed at the bottom of each page is providing the user to social media links and a google maps function that will help you on your way. links ordered from left to right are Facebook, Twitter, Youtube and Google maps. All links are provided on each page
 
 ## Testing
-- The methods i have used to test this project is a CSS validator called Validator W3C "The markup validation services" and a responsinator called Jigsaw validator. The website loads smoothly and doesnt load one section at a time. 
+- The methods i have used to test this project is a CSS validator called Validator W3C "The markup validation services" and a responsinator called Jigsaw validator. The website loads smoothly and doesnt load one section at a time. These have been used on all three HTML pages. The W3C validator has returned no errors on the CSS code
 
+### The services used for testing the code
+- http://www.responsinator.com/
+- https://validator.w3.org/
+- https://jigsaw.w3.org/
 ### HTML
 
-- 
+- The HTML checker has returned no issues on the home-page
+- The HTML checker has returned no issues on the contact-page
+- The HTML checker has returned no issues on the gallery-page
 
 ### CSS
 
@@ -55,27 +61,36 @@ The footer displayed at the bottom of each page is providing the user to social 
 
 - There are no unfixed bugs!
 
-
 ### Further Testing
 
-- CSS responsinator
+- CSS responsinator returns no issues
+- A large amount of testing where issued so that the pages and links refered correctly
+- Friends and family has tested the website from the user perspective and no complaints where noted
 
-## Deployment
 
--
--
--
--
--
+## Deployment to Github pages
 
-## Credits
+- log in to the github account and locate the repository
+- At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+- Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+- Scroll down the Settings page until you locate the "GitHub Pages" Section.
+- Under "Source", click the dropdown called "None" and select "Master Branch".
+- The page will automatically refresh.
+- Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+## Credits and sources
 
 ### Content
-The text sections where written by myself but where inspired by this wikipedia header(https://sv.wikipedia.org/wiki/Sigtuna)
-The icons placed in the footer where taken from Font Awesome (https://fontawesome.com/icons)
-The text fonts where taken from Google Fonts (https://fonts.google.com/)
+
+- The text sections where written by myself but where inspired by this wikipedia header(https://sv.wikipedia.org/wiki/Sigtuna)
+- The icons placed in the footer where taken from Font Awesome (https://fontawesome.com/icons)
+- The text fonts where taken from Google Fonts (https://fonts.google.com/)
+- The hamburger menu was taken from this guide : https://alvarotrigo.com/blog/hamburger-menu-css/. Lines 228 - 317 and lines 380 - 431
 
 ### Media
 The pictures from the home and gallery page was taken from following sites: 
 (https://www.google.com/search?q=sigtuna+runstenar&rlz=1C1CHBF_svSE976SE977&sxsrf=APq-WBsZcNm4zAngGRG_M7GIVFunyXYt0g:1648576318476&source=lnms&tbm=isch&sa=X&ved=2ahUKEwir6OOu8ev2AhV6QvEDHQUxAd0Q_AUoAXoECAEQAw&biw=1536&bih=746&dpr=1.25) (https://www.google.com/search?q=klocktornet+sigtuna&rlz=1C1CHBF_svSE976SE977&hl=sv&sxsrf=APq-WBtoksMoZWuwdKn94P5_W8oWDpYZUQ:1648576423143&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiyntjg8ev2AhVvR_EDHVFJAfsQ_AUoAnoECAEQBA&biw=1536&bih=746&dpr=1.25)
 
+## Acknowledgements 
+- My mentor for tremendous help and coaching
+- The tutor team at Code Institute for help and feedback

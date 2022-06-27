@@ -121,7 +121,6 @@
 
 body {
     padding: 30px;
-    margin: 30px;
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
@@ -130,7 +129,7 @@ body {
 
 div {
     padding: 5px;
-    margin: 15px;
+
 
 }
 
@@ -317,6 +316,7 @@ h4 {
     transform: rotate(-405deg);
 }
 
+/*Media queries for menu toggled on and off*/
 @media (max-width: 700px) {
 
     .menu-button-container,
@@ -330,7 +330,7 @@ h4 {
     @media (min-width: 320px) {
 
         #menu {
-            color: aqua;
+
             flex-direction: row;
             font-size: small;
             margin-right: 10px;
@@ -362,7 +362,7 @@ h4 {
     @media (min-width: 320px) {
 
         .menu-button {
-            color: red;
+
             padding-bottom: 100px;
             padding-left: 50px;
 
@@ -377,6 +377,7 @@ h4 {
         }
     }
 
+    /*rules for menu toggled on and off*/
     .menu-button::after.menu-button::before {
         margin-right: 20px;
         margin-bottom: 15px;
@@ -436,10 +437,9 @@ th,
 td {
     border: 1px solid black;
     background-color: #fafafa;
-    width: 50%;
     height: 40%;
     columns: 4;
-    column-width: 4;
+
 }
 
 
@@ -507,11 +507,8 @@ input {
     td,
     th {
 
-        size-adjust: 50%;
         column-width: 30px;
         columns: auto;
-        margin: auto;
-        padding: auto;
         box-sizing: border-box;
         width: 50%;
         height: 40px;
