@@ -201,12 +201,9 @@ h4 {
 
 }
 
-#sigtuna {
-    background-image: url("/assets/css/images/Sigtuna\ överblick.jpg");
-    background-position: center;
-    background-size: contain;
-    margin-right: 10px;
-    width: 300%;
+#homepage-image {
+    width: 60%;
+    height: auto;
 }
 
 /* navigation links and hamburger menu */
@@ -230,8 +227,6 @@ h4 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #00BAF0;
-    background: linear-gradient(to left, #f46b45, #eea849);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
     height: 50px;
@@ -270,6 +265,8 @@ h4 {
 #menu-toggle {
     display: none;
 }
+
+
 
 .menu-button,
 .menu-button::before,
@@ -385,12 +382,11 @@ td {
 #contact {
     height: 600px;
 
-
 }
 
 /*section of both tables*/
 #contactinfo {
-    background-color: aqua;
+
     size-adjust: 100%;
     width: 100%;
 
@@ -429,6 +425,12 @@ input {
 
 }
 
+@media screen and (min-width: 419px) {
+    #menu-toggle {
+        display: block;
+    }
+}
+
 
 
 @media screen and (min-width: 320px) {
@@ -440,7 +442,7 @@ input {
     tr,
     td,
     th {
-        background-color: lightgreen;
+
         size-adjust: 50%;
         column-width: 30px;
         columns: auto;

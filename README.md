@@ -55,6 +55,11 @@ The footer displayed at the bottom of each page is providing the user to social 
 
 - There are no unfixed bugs!
 
+
+### Further Testing
+
+- CSS responsinator
+
 ## Deployment
 
 -
