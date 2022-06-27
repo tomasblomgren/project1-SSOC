@@ -129,7 +129,8 @@ body {
 }
 
 div {
-    padding: 25px;
+    padding: auto;
+    margin: 15px;
 
 }
 
@@ -192,6 +193,7 @@ h4 {
 .flex-container {
     display: flex;
     flex-flow: column;
+    flex-direction: column;
 }
 
 #logo {
@@ -209,17 +211,17 @@ h4 {
 /* navigation links and hamburger menu */
 
 #menu {
-    font-size: 130%;
+    font-size: 100%;
     letter-spacing: 4px;
     color: #252525;
     box-sizing: content-box;
-    border-radius: 10px;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     text-align: center;
     color: black;
-    float: right;
+    float: left;
+
 }
 
 .top-nav {
@@ -229,8 +231,10 @@ h4 {
     justify-content: space-between;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
+    width: 600px;
     height: 50px;
     padding: 1em;
+
 }
 
 .menu {
@@ -255,7 +259,7 @@ h4 {
     justify-content: center;
     align-items: center;
     float: right;
-    color: #222;
+    color: black;
 }
 
 #menu {
@@ -265,8 +269,6 @@ h4 {
 #menu-toggle {
     display: none;
 }
-
-
 
 .menu-button,
 .menu-button::before,
@@ -278,6 +280,7 @@ h4 {
     width: 30px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
+    color: #222;
 }
 
 .menu-button::before {
@@ -288,6 +291,7 @@ h4 {
 .menu-button::after {
     content: '';
     margin-top: 8px;
+
 }
 
 #menu-toggled:checked+.menu-button-container .menu-button::before {
@@ -297,6 +301,7 @@ h4 {
 
 #menu-toggle:checked+.menu-button-container .menu-button {
     background-color: aqua;
+    background: none;
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button .menu-button::after {
@@ -305,8 +310,35 @@ h4 {
 }
 
 @media (max-width: 700px) {
-    .menu-button-container {
+
+    .menu-button-container,
+    .menu-button #menu.top-nav {
         display: flex;
+        color: aqua;
+        flex-direction: column;
+        size-adjust: auto;
+        font-size: small;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    @media (min-width: 320px) {
+
+        #menu {
+
+            color: aqua;
+            flex-direction: column;
+            font-size: small;
+            margin-left: 1px;
+            margin-right: 1px;
+            margin-top: 5px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            width: 30%;
+            max-height: 10px;
+            float: initial;
+            columns: 1;
+        }
     }
 
     .menu {
@@ -337,6 +369,7 @@ h4 {
 
     .menu>li {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         margin: 0;
         padding: 0.5em 0;
@@ -431,7 +464,7 @@ input {
     }
 }
 
-
+/*controlling table sizes on screen adjustment*/
 
 @media screen and (min-width: 320px) {
 
@@ -496,4 +529,15 @@ footer {
     /* Height of the footer */
     height: 120px;
     opacity: 0.9;
+}
+
+
+.control-me {
+    display: none;
+}
+
+#menu-toggle:checked~.control-me {
+    display: block;
+    margin-bottom: auto;
+    margin-right: auto;
 }

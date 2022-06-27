@@ -14,35 +14,34 @@
 <body class="flex-container">
     <section class="top-nav">
         <header>
-            <input id="menu-toggle" type="checkbox" />
-            <label class="menu-button-container" for="menu-toggle">
-            <div class="menu-button"></div>
-            </label>
-            <div>
-                <nav>
-                    <ul id="menu">
-                        <li>
-                            <a class="active" style="order: 3" href="signup.html">Contact</a>
-                        </li>
+            <label for="menu-toggle">
 
-                        <li>
-                            <a style="order: 2" href="gallery.html">Gallery</a>
-                        </li>
-                        <li>
-                            <a style="order: 1" href="index.html">Home</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+                <div class="menu-button">Menu</div>
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <!--Menu div-->
+            <nav class="control-me">
+                <ul id="menu">
+                    <li>
+                        <a style="order: 1" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a style="order: 2" href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="active" style="order: 3" href="signup.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- </div> -->
     </section>
     <a href="index.html">
         <h1 id="logo">Sigtuna Swedens Oldest City</h1>
     </a>
     </header>
     <section id="home-text">
-        <div>
 
-        </div>
+        <!--Homepage text-->
         <div class="flex-container">
             <h2>This website can be used as your personal guide through Sigtuna. Find your point of interest and take it
                 from there!</h2>
@@ -64,10 +63,6 @@
 
     </section>
 
-
-    <section>
-
-    </section>
     <section id="footer">
         <footer>
             <ul class="social-networks">
@@ -96,6 +91,7 @@
     <!--Font awesome script -->
     <script src="https://fontawesome.com/icons/location-pin?s=solid"></script>
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
