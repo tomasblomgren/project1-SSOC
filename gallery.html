@@ -13,22 +13,30 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">Sigtuna Swedens Oldest City</h1>
-        </a>
-        <nav>
+        <label for="menu-toggle">
+
+            <div class="menu-button">Menu</div>
+        </label>
+        <input type="checkbox" id="menu-toggle">
+        <!--Menu div-->
+        <nav class="control-me">
             <ul id="menu">
-                <li>
-                    <a href="signup.html">Contact</a>
-                </li>
-                <li>
-                    <a href="gallery.html" class="active">Gallery</a>
-                </li>
                 <li>
                     <a href="index.html">Home</a>
                 </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a class="active" href="signup.html">Contact</a>
+                </li>
             </ul>
         </nav>
+        <!-- </div> -->
+        </section>
+        <a href="index.html">
+            <h1 id="logo">Sigtuna Swedens Oldest City</h1>
+        </a>
     </header>
     <section id="photos">
         <img src="assets/images/Ruin 1.jpg" alt="An old monastery ruin located in Sigtuna">

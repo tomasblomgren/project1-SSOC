@@ -314,30 +314,37 @@ h4 {
     .menu-button-container,
     .menu-button #menu.top-nav {
         display: flex;
-        color: aqua;
         flex-direction: column;
         size-adjust: auto;
         font-size: small;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
     @media (min-width: 320px) {
 
         #menu {
-
             color: aqua;
-            flex-direction: column;
+            flex-direction: row;
             font-size: small;
-            margin-left: 1px;
-            margin-right: 1px;
-            margin-top: 5px;
-            padding-top: 3px;
-            padding-bottom: 3px;
-            width: 30%;
-            max-height: 10px;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding-top: 0;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 20px;
+            max-width: 30%;
+            width: 10%;
+            height: 10px;
             float: initial;
-            columns: 1;
+        }
+    }
+
+    @media (min-width: 320px) {
+
+        #logo {
+            font-size: 180%;
         }
     }
 
