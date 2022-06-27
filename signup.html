@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,106 +15,107 @@
 <body>
 
     <header>
-        <label for="menu-toggle">
+        <div>
+            <label for="menu-toggle">
+                <span class="menu-button">Menu</span>
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <!--Menu div-->
+            <nav class="control-me">
+                <ul id="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="active" href="signup.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- </div> -->
 
-            <div class="menu-button">Menu</div>
-        </label>
-        <input type="checkbox" id="menu-toggle">
-        <!--Menu div-->
-        <nav class="control-me">
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a class="active" href="signup.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- </div> -->
-        </section>
-        <a href="index.html">
-            <h1 id="logo">Sigtuna Swedens Oldest City</h1>
-        </a>
+            <a href="index.html">
+                <h1 id="logo">Sigtuna Swedens Oldest City</h1>
+            </a>
+        </div>
     </header>
 
-    <body>
-        <section id="contactinfo">
-            <table id="events">
-                <tr>
-                    <th>AM tour</th>
-                    <th>PM tour</th>
-                </tr>
-                <tr>
-                    <td>Important landmarks</td>
-                    <td>Halfday tour</td>
-                </tr>
-                <tr>
-                    <td>Mainstreet</td>
-                    <td>Museum tour</td>
 
-                </tr>
-            </table>
-            <br>
-            <table id="events2">
-                <tr>
-                    <th>Contact</th>
-                    <th>Points of interest</th>
-                </tr>
-                <tr>
-                    <td>Tomas Blomgren</td>
-                    <td>History tour</td>
-                </tr>
-                <tr>
-                    <td>Maria Svenson</td>
-                    <td>Lakeview tour</td>
-                </tr>
-            </table>
-        </section>
-    </body>
+    <div id="contactinfo">
+        <table id="events">
+            <tr>
+                <th>AM tour</th>
+                <th>PM tour</th>
+            </tr>
+            <tr>
+                <td>Important landmarks</td>
+                <td>Halfday tour</td>
+            </tr>
+            <tr>
+                <td>Mainstreet</td>
+                <td>Museum tour</td>
 
-    <section class="form-section">
-        <form id="contact" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            </tr>
+        </table>
+        <br>
+        <table id="events2">
+            <tr>
+                <th>Contact</th>
+                <th>Points of interest</th>
+            </tr>
+            <tr>
+                <td>Tomas Blomgren</td>
+                <td>History tour</td>
+            </tr>
+            <tr>
+                <td>Maria Svenson</td>
+                <td>Lakeview tour</td>
+            </tr>
+        </table>
+    </div>
+</body>
 
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required>
+<section class="form-section">
+    <form id="contact" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
 
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" required>
+        <label for="fname">First Name</label>
+        <input id="fname" name="first_name" type="text" required>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
+        <label for="lname">Last Name</label>
+        <input id="lname" name="last_name" type="text" required>
 
-            <input class="join-button" type="submit" value="Find your way around!">
-        </form>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" required>
 
-    </section>
+        <input class="join-button" type="submit" value="Find your way around!">
+    </form>
 
-    <ul class="social-networks">
-        <li>
-            <a href="https://facebook.com" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-            <a href="https://twitter.com" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-        </li>
-        <li>
-            <a href="https://youtube.com" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-        </li>
-        <li>
-            <a href="https://www.google.com/maps/place/Sigtuna/@59.6121268,17.6537003,12z/data=!3m1!4b1!4m5!3m4!1s0x465fba50d00c2875:0x64aad071d7ca81fd!8m2!3d59.6191463!"
-                target="_blank" rel="noopener" aria-label="Visit our Google page (opens in a new tab)"><i
-                    class="fa-solid fa-location-arrow"></i></a>
-        </li>
-    </ul>
-    <!--Font awesome script -->
-    <script src="https://fontawesome.com/icons/location-arrow?s=solid"></script>
-    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+</section>
+
+<ul class="social-networks">
+    <li>
+        <a href="https://facebook.com" target="_blank" rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+    </li>
+    <li>
+        <a href="https://twitter.com" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+    </li>
+    <li>
+        <a href="https://youtube.com" target="_blank" rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/maps/place/Sigtuna/@59.6121268,17.6537003,12z/data=!3m1!4b1!4m5!3m4!1s0x465fba50d00c2875:0x64aad071d7ca81fd!8m2!3d59.6191463!"
+            target="_blank" rel="noopener" aria-label="Visit our Google page (opens in a new tab)"><i
+                class="fa-solid fa-location-arrow"></i></a>
+    </li>
+</ul>
+<!--Font awesome script -->
+<script src="https://fontawesome.com/icons/location-arrow?s=solid"></script>
+<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
